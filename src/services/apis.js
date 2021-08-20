@@ -10,3 +10,8 @@ export const addUser = async (info) => {
     var url = 'http://localhost:8080/create/';
     return await api.post(url, info)
 }
+
+export const deposit = async (info) => {
+    var url = 'http://localhost:8080/deposit/';
+    return await api.post(url, info)
+}
